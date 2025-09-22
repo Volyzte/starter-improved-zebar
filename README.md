@@ -12,7 +12,8 @@ Clone this repo inside your zebar config directory.
 
 ### Prerequisites
 
-* [SF Pro Rounded font](https://developer.apple.com/fonts/) 
+* [SF Pro Rounded font](https://github.com/sahibjotsaggu/San-Francisco-Pro-Fonts) 
+* [Zebar](https://github.com/glzr-io/zebar)
 
 ## License
 
