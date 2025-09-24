@@ -4,7 +4,13 @@ An improved iteration of the starter configuration included in Zebar.
 
 ## Showcase
 
+### With GlazeWM
+
 ![image](https://github.com/Volyzte/starter-improved-zebar/blob/master/misc/showcase.png)
+
+### With GlazeWM and Media Display
+
+![image](https://github.com/Volyzte/starter-improved-zebar/blob/master/misc/showcase-media.png)
 
 ## Installation
 
