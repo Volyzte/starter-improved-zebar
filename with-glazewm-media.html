@@ -88,8 +88,8 @@
                (output.media.currentSession ? 
                     <div className="media">
                         <i id="media-button" class={(output.media.currentSession.isPlaying ? "nf nf-fa-music" : "nf nf-fa-pause")} onClick={() => {output.media.togglePlayPause();}}></i>
-                        <span>{(output.media.currentSession.artist) ? (output.media.currentSession.artist.slice(0, 20)) + (output.media.currentSession.artist.length > 15 ? "..." : "") + <span> - </span> : ""}</span>
-                        <span>{(output.media.currentSession.title.slice(0, 20)) + (output.media.currentSession.title.length > 15 ? "..." : "")}</span>
+                        <span>{(output.media.currentSession.artist) ? (output.media.currentSession.artist.slice(0, 15)) + (output.media.currentSession.artist.length > 15 ? "..." : "") + " - " : ""}</span>
+                        <span>{(output.media.currentSession.title.slice(0, 25)) + (output.media.currentSession.title.length > 25 ? "..." : "")}</span>
                     </div>
                     : null
                ) 
