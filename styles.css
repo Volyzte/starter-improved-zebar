@@ -17,7 +17,7 @@ body {
   font-weight: 400;
   overflow: hidden;
   /* font-size: small; */
-  font-size: 11.7px;
+  font-size: 12px;
 }
 
 div,
@@ -73,7 +73,8 @@ body,
 .network,
 .memory,
 .cpu,
-.battery {
+.battery,
+.media{
   margin-right: 20px;
 }
 
@@ -103,7 +104,8 @@ body,
 
 .binding-mode,
 .tiling-direction,
-.paused-button {
+.paused-button,
+#media-button{
   background: rgb(255 255 255 / 15%);
   color: rgb(255 255 255 / 90%);
   border-radius: 2px;
